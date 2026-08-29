@@ -21,6 +21,7 @@ export const ranOnInstance = Action(
     gs.info('ran on instance');
     gs.info('created by build agent');
     gs.info('created while sdlc demo');
+    gs.info('created while sdlc demo from Claude and VScode');
 })(inputs, outputs);
                 `,
             }
