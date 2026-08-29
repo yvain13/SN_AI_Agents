@@ -20,6 +20,7 @@ export const ranOnInstance = Action(
 (function execute(inputs, outputs) {
     gs.info('ran on instance');
     gs.info('created by build agent');
+    gs.info('created while sdlc demo');
 })(inputs, outputs);
                 `,
             }
