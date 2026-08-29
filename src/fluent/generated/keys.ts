@@ -73,7 +73,7 @@ declare global {
                     {
                         table: 'sn_aia_trigger_configuration'
                         id: '38cc139358a044cda39f0d9773a4caa4'
-                        deleted: true
+                        deleted: false
                         key: {
                             name: 'incident_transitions_to_in_progress'
                         }
@@ -157,6 +157,7 @@ declare global {
                     {
                         table: 'sn_aia_trigger_configuration'
                         id: '8fe607ad69d44ce4b29bff0ed7542e0d'
+                        deleted: true
                         key: {
                             name: 'incident_transitions_to_in_progress'
                             usecase: 'NULL'
@@ -183,7 +184,7 @@ declare global {
                     {
                         table: 'sn_aia_trigger_agent_usecase_m2m'
                         id: '9c73cb9d16594b57897d62df5382e275'
-                        deleted: true
+                        deleted: false
                         key: {
                             trigger_configuration: {
                                 id: '38cc139358a044cda39f0d9773a4caa4'
@@ -220,7 +221,7 @@ declare global {
                     {
                         table: 'sn_aia_agent_tool_m2m'
                         id: 'a43814df6bf145a1832727a5e0b30c31'
-                        deleted: true
+                        deleted: false
                         key: {
                             agent: '1b8e673ee69043b1922196a4c2faefca'
                             tool: 'a25ca1a5f90b45739ca5a9228554c20e'
@@ -245,7 +246,7 @@ declare global {
                     {
                         table: 'sn_aia_agent_tool_m2m'
                         id: 'ac7ba50536f64b3981a9b44993df5113'
-                        deleted: true
+                        deleted: false
                         key: {
                             agent: '1b8e673ee69043b1922196a4c2faefca'
                             tool: 'b5ee9d93ab014d40a3a667180e19973e'
@@ -277,6 +278,7 @@ declare global {
                     {
                         table: 'sn_aia_trigger_agent_usecase_m2m'
                         id: 'd541c7373c1d4b64a15ca11175ed5e92'
+                        deleted: true
                         key: {
                             trigger_configuration: {
                                 id: '8fe607ad69d44ce4b29bff0ed7542e0d'
@@ -291,6 +293,7 @@ declare global {
                     {
                         table: 'sn_aia_agent_tool_m2m'
                         id: 'e603a49f31dc4483b3298c48d7b0a487'
+                        deleted: true
                         key: {
                             agent: '1b8e673ee69043b1922196a4c2faefca'
                             tool: 'a25ca1a5f90b45739ca5a9228554c20e'
@@ -309,6 +312,7 @@ declare global {
                     {
                         table: 'sn_aia_agent_tool_m2m'
                         id: 'edca7715b3c647a7aedd8462f89c00a0'
+                        deleted: true
                         key: {
                             agent: '1b8e673ee69043b1922196a4c2faefca'
                             tool: 'b5ee9d93ab014d40a3a667180e19973e'

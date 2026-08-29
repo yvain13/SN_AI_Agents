@@ -19,6 +19,7 @@ export const ranOnInstance = Action(
                 script: `
 (function execute(inputs, outputs) {
     gs.info('ran on instance');
+    gs.info('created by build agent');
 })(inputs, outputs);
                 `,
             }
